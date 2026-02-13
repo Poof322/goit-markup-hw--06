@@ -129,7 +129,6 @@ textarea {
 .burger-button{
   padding: 4px 5px;
   background-color: #fff;
-
 }
 
 .burger-menu{
@@ -240,7 +239,6 @@ fill: #2f2f37;
 
 .hero-section {
   max-width: 320px;
-  height: 436px;
   margin: 0 auto;
   padding: 72px 0;
   background-image:
@@ -887,7 +885,6 @@ margin-bottom: 8px;
 
 .checkbox-icon {
   fill: #f4f4fd;
- 
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -937,6 +934,7 @@ margin-bottom: 8px;
   opacity: 0;
    visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-modal.is-open{
@@ -1245,18 +1243,14 @@ text-align: left;
 
 .hero-section {
   max-width: 1440px;
-  height: 600px;
-  padding: 120px 0;
+  height: 100%;
+  padding: 188px 0;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/hero/hero-d.jpg");
 }
 
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 .hero-section {
   max-width: 1440px;
@@ -1328,6 +1322,7 @@ text-align: left;
 }
 
 
+}
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi){
  .hero-section {
@@ -1335,7 +1330,4 @@ text-align: left;
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/hero/hero-d@2x.jpg");
 }
-}
-
-
 }
