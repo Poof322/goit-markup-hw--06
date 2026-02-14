@@ -202,15 +202,13 @@ textarea {
   color: var(--Primary-Second-Ocean);
 }
 
-address{
-  display: none;
-}
 
 .address-link {
+  display: none;
   margin-left: auto;
 }
 
-.address-list {
+.address-list{
   display: none;
   justify-content: end;
   font-weight: 400;
@@ -1009,9 +1007,7 @@ address{
 /* MEDIA  */
 
 @media screen and (min-width: 768px) {
-    address{
-    display: flex;
-    }
+   
 
   .container {
     max-width: 768px;
@@ -1033,6 +1029,10 @@ address{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+  }
+   
+  .address-link{
+   display: flex;
   }
 
   .address-list {
