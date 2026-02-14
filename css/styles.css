@@ -972,7 +972,9 @@ opacity: 1;
   position:relative;
 }
 
-.mobile-navigation{
+.mobile-navigation, 
+.mobile-address,
+.mobile-social-list{
   padding: 72px 42px 0 16px;
 }
 
@@ -1022,11 +1024,11 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-text);
+
 }
 
-.mobile-address-link:hover,
-.mobile-address-link:focus{
-  color: var(--Primary-Brand-Iris);
+.accent-mobile-address{
+  color: var(--Primary-Brand-Iris)
 }
 
 
