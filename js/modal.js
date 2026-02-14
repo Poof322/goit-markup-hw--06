@@ -22,11 +22,11 @@
 (() => {
   const refs = {
     // Додати атрибут data-modal-open на кнопку відкриття
-    openModalBtn: document.querySelector('[mobile-modal-open]'),
+    openModalBtn: document.querySelector('[data-mobile-modal-open]'),
     // Додати атрибут data-modal-close на кнопку закриття
-    closeModalBtn: document.querySelector('[mobile-modal-close]'),
+    closeModalBtn: document.querySelector('[data-mobile-modal-close]'),
     // Додати атрибут data-modal на бекдроп модалки
-    modal: document.querySelector('[mobile-modal]'),
+    modal: document.querySelector('[data-mobile-modal]'),
   };
 
   refs.openModalBtn.addEventListener('click', toggleModal);

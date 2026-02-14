@@ -27,7 +27,7 @@
           ><span class="accent">Web</span>Studio</a
         >
         <div class="burger-menu">
-          <button type="button" class="burger-button" mobile-modal-open>
+          <button type="button" class="burger-button" data-mobile-modal-open>
          <svg width="24" height="24" class="burger-icon" >
           <use href="./images/icons.svg#icon-burger" >
           </use>
@@ -629,11 +629,11 @@
     <!-- End Modal -->
 
     <!-- Moobile-Burger-Menu -->
-      <div class="mobile-modal" >
+      <div class="mobile-modal" data-mobile-modal>
   <div class="overlay">
     <div class="mobile-content">
        <button class="modal-close-btn" type="button" >
-          <svg width="8" height="8" class="modal-close-svg">
+          <svg width="8" height="8" class="modal-close-svg" data-mobile-modal-close>
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -699,11 +699,8 @@
                   </li>
                 </ul>
           </div>
-        </nav>
-      
     </div>
   </div>
-</div>
 <!-- End MBM -->
 
     <script src="./js/modal.js"></script>
