@@ -985,7 +985,7 @@ opacity: 1;
 }
 
 
-.mobile-list-item{
+.mobile-list-item:not(:last-child){
 margin-bottom: 40px;
 }
 
