@@ -719,7 +719,7 @@ textarea {
   position: relative;
   background-color: #fcfcfc;
   border-radius: 4px;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   box-shadow:
     0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f,
@@ -1163,7 +1163,7 @@ textarea {
   }
 
   .header-container {
-    gap: 76px;
+    margin: auto;
   }
 
   .nav-link {
@@ -1257,6 +1257,12 @@ textarea {
   .footer-input {
     width: 264px;
   }
+
+.modal{
+  padding: 72px 24px 24px 24px;
+}
+
+
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
