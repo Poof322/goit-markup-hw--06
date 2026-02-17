@@ -1144,6 +1144,7 @@ textarea {
 
   .modal {
     max-width: 408px;
+     padding: 72px 24px 24px 24px;
   }
 }
 
@@ -1263,9 +1264,6 @@ textarea {
     width: 264px;
   }
 
-.modal{
-  padding: 72px 24px 24px 24px;
-}
 
 
 }
@@ -1279,8 +1277,9 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .footer-container {
-    max-width: 584px;
+  .footer .container {
+   padding-left: 108px;
+   padding-right: 108px;
   }
 }
 
